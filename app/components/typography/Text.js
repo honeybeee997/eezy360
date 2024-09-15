@@ -16,7 +16,7 @@ const getClasses = (el) => {
       return "text-base font-medium mb-1";
     case "p":
     default:
-      return "leading-7 mb-4";
+      return "mb-4";
   }
 };
 

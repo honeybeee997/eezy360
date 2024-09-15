@@ -5,6 +5,7 @@
 @layer base {
   :root {
     --color-primary: 201, 243, 29;
+    --color-blur: #47474780;
   }
 }
 
@@ -19,25 +20,6 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
-  }
-}
-
-.home-banner {
-  /* background-image: linear-gradient(270deg, transparent, black),
-    linear-gradient(17deg, transparent 40%, rgb(var(--color-primary))); */
-}
-
-img {
-  animation: scaleUpDown 15s infinite;
-}
-
-@keyframes scaleUpDown {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
   }
 }
 
