@@ -16,6 +16,7 @@ const HomepageBanner = () => {
         className={`opacity-15 absolute z-[-1] top-[-10%] right-[-33%] ${classes.img}`}
         width={1920}
         height={1080}
+        priority
       />
       <div className="p-10">
         <Text el="h1" className="max-w-5xl text-8xl">
