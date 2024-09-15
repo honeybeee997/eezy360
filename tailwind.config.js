@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "rgb(var(--color-primary))",
+        blur: "var(--color-blur)",
       },
     },
   },
