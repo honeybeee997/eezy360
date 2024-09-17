@@ -3,6 +3,7 @@ import React from "react";
 import Container from "../layout/Container";
 import DisplayList from "../ui/DisplayList";
 import Text from "../typography/Text";
+import Button from "../ui/Button";
 
 const Expertise = () => {
   return (
@@ -26,6 +27,7 @@ const Expertise = () => {
             We help you get more more customers using content creation and
             social media marketing.
           </Text>
+          <Button className="mt-6">Book a Free Demo</Button>
         </div>
         <div className="w-full max-w-2xl">
           <Text el="h2">Expertise</Text>
