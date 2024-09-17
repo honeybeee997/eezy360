@@ -5,7 +5,9 @@
 @layer base {
   :root {
     --color-primary: 201, 243, 29;
+    --color-bgLight: 21, 21, 21;
     --color-blur: #47474780;
+    --color-paragraph: #b6b6b6;
   }
 }
 
