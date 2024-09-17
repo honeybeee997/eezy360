@@ -5,6 +5,7 @@ import Nav from "@/components/ui/Nav";
 import HomepageBanner from "./Banner";
 import ServicesSlider from "../ui/ServicesSlider";
 import Expertise from "./Expertise";
+import Founder from "./Founder";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
       <HomepageBanner />
       <ServicesSlider />
       <Expertise />
+      <Founder />
     </>
   );
 };

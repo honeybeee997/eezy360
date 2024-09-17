@@ -1,0 +1,9 @@
+.zoom_image_wrapper img {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.zoom_image_wrapper:hover img {
+  transform: translateY(-20px) scale(1.1);
+  border-radius: 8px;
+}
