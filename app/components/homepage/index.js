@@ -6,6 +6,7 @@ import HomepageBanner from "./Banner";
 import ServicesSlider from "../ui/ServicesSlider";
 import Expertise from "./Expertise";
 import Founder from "./Founder";
+import HomepageShowcase from "./HomepageShowcase";
 
 const Homepage = () => {
   return (
@@ -18,6 +19,7 @@ const Homepage = () => {
       <ServicesSlider />
       <Expertise />
       <Founder />
+      <HomepageShowcase />
     </>
   );
 };

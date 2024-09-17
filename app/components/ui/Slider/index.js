@@ -7,7 +7,7 @@ import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 // Default theme
 import "@splidejs/react-splide/css";
 
-const Slider = ({ slides = [] }) => {
+const Slider = ({ slides = [], gap = -1, leftToRight = false }) => {
   return (
     <Splide
       aria-label="My Favorite Images"
@@ -17,8 +17,8 @@ const Slider = ({ slides = [] }) => {
         perPage: 4,
         pagination: false,
         arrows: false,
-        gap: -1,
-        autoScroll: { speed: 2 },
+        gap,
+        autoScroll: { speed: leftToRight ? -2 : 2 },
       }}
       extensions={{ AutoScroll }}
     >

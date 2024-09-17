@@ -1,6 +1,8 @@
 .zoom_image_wrapper img {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  height: 283px;
+  width: auto;
 }
 
 .zoom_image_wrapper:hover img {
