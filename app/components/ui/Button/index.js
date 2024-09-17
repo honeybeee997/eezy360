@@ -13,7 +13,7 @@ const Button = ({ className, onClick, children, iconButton }) => {
     classNames += " text-paragraph flex items-center gap-4 transition-all";
     return (
       <button className={classNames} onClick={onClick}>
-        <Text el="strong" className="mb-0">
+        <Text el="strong" className="!mb-0">
           {children || "Button"}
         </Text>
         <div className="p-4 border border-primary rounded-full text-2xl text-primary transition-all">
