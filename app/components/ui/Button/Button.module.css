@@ -1,5 +1,4 @@
 .button:hover {
   box-shadow: 0 0 5px rgb(var(--color-primary)),
-    0 0 25px rgb(var(--color-primary)), 0 0 50px rgb(var(--color-primary)),
-    0 0 100px rgb(var(--color-primary)), 0 0 200px rgb(var(--color-primary));
+    0 0 25px rgb(var(--color-primary)), 0 0 75px rgb(var(--color-primary));
 }
