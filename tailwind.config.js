@@ -16,6 +16,7 @@ module.exports = {
         blur: "var(--color-blur)",
         paragraph: "var(--color-paragraph)",
         bgLight: "rgb(var(--color-bgLight))",
+        divider: "var(--color-divider)",
       },
     },
   },

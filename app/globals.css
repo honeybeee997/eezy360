@@ -8,6 +8,7 @@
     --color-bgLight: 21, 21, 21;
     --color-blur: #47474780;
     --color-paragraph: #b6b6b6;
+    --color-divider: #333333;
   }
 }
 
@@ -22,6 +23,10 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
+  }
+
+  .outlined-text.black {
+    -webkit-text-stroke-color: #000;
   }
 }
 

@@ -7,6 +7,8 @@ import ServicesSlider from "../ui/ServicesSlider";
 import Expertise from "./Expertise";
 import Founder from "./Founder";
 import HomepageShowcase from "./HomepageShowcase";
+import HomepageFAQs from "./HomepageFAQs";
+import Footer from "../layout/Footer";
 
 const Homepage = () => {
   return (
@@ -20,6 +22,8 @@ const Homepage = () => {
       <Expertise />
       <Founder />
       <HomepageShowcase />
+      <HomepageFAQs />
+      <Footer />
     </>
   );
 };

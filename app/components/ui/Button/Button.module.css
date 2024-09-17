@@ -1,4 +1,18 @@
-.button:hover {
+.button:hover,
+.button_rounded:hover div {
   box-shadow: 0 0 5px rgb(var(--color-primary)),
     0 0 25px rgb(var(--color-primary)), 0 0 75px rgb(var(--color-primary));
+}
+
+.button_rounded div:hover {
+  background-color: rgb(var(--color-primary));
+  color: black;
+}
+
+.button_rounded:hover div svg {
+  transform: rotate(-45deg);
+}
+
+.button_rounded:hover strong {
+  color: white;
 }
