@@ -16,7 +16,7 @@ const FAQS = [
     content: (
       <>
         <Text>
-          We offer full refunds if you're not satisfied with our service within
+          We offer full refunds if you are not satisfied with our service within
           the first 30 days or if we have not delivered on our promise, minus
           any processing fees. Take two examples:
         </Text>
@@ -32,7 +32,7 @@ const FAQS = [
         </Text>
         <Text el="p" className="text-paragraph">
           We manage your social media and work on optimising your content. If
-          you're not satisfied within 30 days. We refund you, minus processing
+          you are not satisfied within 30 days. We refund you, minus processing
           fees.
         </Text>
       </>
