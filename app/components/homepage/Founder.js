@@ -18,7 +18,7 @@ const Founder = () => {
         Our Founder, Patrick has always loved being creative.
       </Text>
       <Text className="text-center text-paragraph text-xl">
-        With his passion for filmmaking and marketing, he's harnessed these
+        With his passion for filmmaking and marketing, he has harnessed these
         skills to build the best people to help others tell their stories.
       </Text>
       <div className="flex justify-center mt-20 gap-20">

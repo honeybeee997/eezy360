@@ -11,7 +11,7 @@ const HomepageFAQs = () => {
         <div>
           <Text el="h2">Frequently Asked Questions</Text>
           <Text className="text-paragraph max-w-2xl">
-            We've compiled answers to the most common questions about our
+            We have compiled answers to the most common questions about our
             products, shipping, and services to assist you. Find answers to
             common queries about orders, shipping, returns, and more, all in one
             place.
