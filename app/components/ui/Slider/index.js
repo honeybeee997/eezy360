@@ -1,5 +1,5 @@
 "use client";
-import React, { useId } from "react";
+import React from "react";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
@@ -22,10 +22,8 @@ const Slider = ({ slides = [] }) => {
       }}
       extensions={{ AutoScroll }}
     >
-      {slides.map((item) => {
-        const id = useId();
-
-        return <SplideSlide key={id}>{item}</SplideSlide>;
+      {slides.map((item, i) => {
+        return <SplideSlide key={i}>{item}</SplideSlide>;
       })}
     </Splide>
   );
