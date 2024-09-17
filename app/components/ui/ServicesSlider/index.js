@@ -3,18 +3,22 @@ import React from "react";
 import Slider from "../Slider";
 import Slide from "../Slider/Slide";
 
+const SERIVCES = [
+  "Content Creation",
+  "Social Media Optimization",
+  "Marketing Support",
+  "Lead Generation",
+  "Content Marketing",
+  "Client Aquisition",
+  "Social Media Marketing",
+];
+
 const ServicesSlider = () => {
   return (
     <Slider
-      slides={[
-        <Slide>Content Creation</Slide>,
-        <Slide>Social Media Optimization</Slide>,
-        <Slide>Marketing Support</Slide>,
-        <Slide>Lead Generation</Slide>,
-        <Slide>Content Marketing</Slide>,
-        <Slide>Client Aquisition</Slide>,
-        <Slide>Social Media Marketing</Slide>,
-      ]}
+      slides={SERIVCES.map((item, i) => {
+        return <Slide key={i}>{item}</Slide>;
+      })}
     />
   );
 };

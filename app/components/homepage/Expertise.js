@@ -21,7 +21,7 @@ const Expertise = () => {
             Marketing Solution for your Business
           </Text>
           <Text className="text-paragraph text-lg">
-            We're a Creative Marketing agency.
+            We are a Creative Marketing agency.
           </Text>
           <Text className="text-paragraph text-lg">
             We help you get more more customers using content creation and
