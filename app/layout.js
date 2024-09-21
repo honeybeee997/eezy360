@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 
 import "./globals.css";
+import Layout from "./components/layout";
 
 const Trap = localFont({
   src: [
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${Trap.variable} font-sans bg-black text-white`}>
-        {children}
+        <Layout>{children}</Layout>
       </body>
     </html>
   );
