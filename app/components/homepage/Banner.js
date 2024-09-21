@@ -16,15 +16,15 @@ const HomepageBanner = () => {
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1] opacity-50 scale-[1.2]"
       />
       {/* Height of the header(84px) + top offset(20px) = 104px margin-top  mt-[104px] */}
-      <div className="p-10 max-w-5xl rounded-xl text-center [text-shadow:_0_1px_0_rgb(0_0_0/_0.5)]">
-        <Text el="h1" className="text-8xl [text-shadow:none]">
+      <div className="p-3 md:p-10 max-w-5xl rounded-xl text-center [text-shadow:_0_1px_0_rgb(0_0_0/_0.5)]">
+        <Text el="h1" className="!text-5xl md:!text-8xl [text-shadow:none]">
           The{" "}
-          <Text el="span" className="text-8xl outlined-text">
+          <Text el="span" className="!text-5xl md:!text-8xl outlined-text">
             creative
           </Text>{" "}
           spark behind your ads
         </Text>
-        <Text el="p" className="text-2xl">
+        <Text el="p" className="text-lg md:text-2xl">
           Get more customers using content creation and social media marketing
         </Text>
         <Button>Book a Free Demo</Button>
