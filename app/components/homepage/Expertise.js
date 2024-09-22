@@ -10,7 +10,7 @@ const Expertise = () => {
     <section className="bg-bgLight">
       <Container
         Component="div"
-        className="flex gap-40 items-center justify-between"
+        className="flex items-center justify-between md:flex-row flex-col gap-[64px] md:gap-10"
       >
         <div className="max-w-2xl">
           <Text el="h2">

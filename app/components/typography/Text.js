@@ -5,7 +5,7 @@ const getClasses = (el) => {
     case "h1":
       return "text-6xl font-bold mb-4";
     case "h2":
-      return "text-5xl font-semibold mb-10";
+      return "text-4xl md:text-5xl font-semibold mb-10";
     case "h3":
       return "text-2xl font-semibold mb-2";
     case "h4":

@@ -20,9 +20,9 @@ const HomepageBanner = () => {
         <Text el="h1" className="!text-5xl md:!text-8xl [text-shadow:none]">
           The{" "}
           <Text el="span" className="!text-5xl md:!text-8xl outlined-text">
-            creative
+            Creative
           </Text>{" "}
-          spark behind your ads
+          Spark Behind Your Ads
         </Text>
         <Text el="p" className="text-lg md:text-2xl">
           Get more customers using content creation and social media marketing

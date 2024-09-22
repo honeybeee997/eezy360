@@ -22,7 +22,7 @@ const HomepageShowcase = () => {
     <section className="bg-bgLight py-[64px] md:py-[120px]">
       <Container
         Component="div"
-        className="!p-0 mb-20 flex justify-between items-center"
+        className="!p-0 mb-10 md:mb-20 flex justify-between items-center gap-10 flex-wrap md:flex-nowrap"
       >
         <div>
           <Text el="h2">
@@ -37,8 +37,8 @@ const HomepageShowcase = () => {
             audiences. See how we turn ideas into impactful visual stories.
           </Text>
         </div>
-        <div>
-          <Button>Explore Full Showcase</Button>
+        <div className="hidden md:block">
+          <Button className="text-nowrap">Explore Full Showcase</Button>
         </div>
       </Container>
       <Slider
@@ -58,6 +58,9 @@ const HomepageShowcase = () => {
           );
         })}
       />
+      <div className="block md:hidden mt-12 text-center">
+        <Button className="text-nowrap">Explore Full Showcase</Button>
+      </div>
     </section>
   );
 };

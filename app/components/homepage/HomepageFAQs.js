@@ -7,7 +7,7 @@ import Button from "../ui/Button";
 const HomepageFAQs = () => {
   return (
     <Container>
-      <div className="flex justify-between items-center mb-20">
+      <div className="flex justify-between items-center mb-20 gap-10 flex-wrap md:flex-nowrap">
         <div>
           <Text el="h2">Frequently Asked Questions</Text>
           <Text className="text-paragraph max-w-2xl">

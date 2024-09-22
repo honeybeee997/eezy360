@@ -2,7 +2,8 @@
   "compilerOptions": {
     "paths": {
       "@/components/*": ["./app/components/*"],
-      "@/typography/*": ["./app/components/typography/*"]
+      "@/typography/*": ["./app/components/typography/*"],
+      "@/hooks/*": ["./app/hooks/*"]
     }
   }
 }

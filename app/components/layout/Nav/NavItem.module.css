@@ -6,7 +6,7 @@
 }
 
 .nav__trigger span {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav__trigger__open span:nth-of-type(2) {
@@ -46,7 +46,7 @@
     right: 5%;
     top: 90%;
     @apply flex flex-col;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     max-height: 0;
     overflow: hidden;
     padding-top: 0 !important;

@@ -17,7 +17,11 @@ const ServicesSlider = () => {
   return (
     <Slider
       slides={SERIVCES.map((item, i) => {
-        return <Slide key={i}>{item}</Slide>;
+        return (
+          <Slide key={i} className="text-nowrap">
+            {item}
+          </Slide>
+        );
       })}
     />
   );
