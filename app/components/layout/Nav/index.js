@@ -41,9 +41,9 @@ const Index = () => {
         onClick={handleNavToggle}
         role="button"
       >
-        <span className="h-[3px] w-5 bg-black block"></span>
-        <span className="h-[3px] w-5 bg-black my-1 block"></span>
-        <span className="h-[3px] w-5 bg-black block"></span>
+        <span className="h-[2px] w-5 bg-black block"></span>
+        <span className="h-[2px] w-5 bg-black my-1 block"></span>
+        <span className="h-[2px] w-5 bg-black block"></span>
       </div>
       <nav
         className={`bg-blur p-2 backdrop-blur-2xl rounded-lg ${
