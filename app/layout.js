@@ -30,6 +30,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/assets/favicon.png" />
+      </head>
       <body className={`${Trap.variable} font-sans bg-black text-white`}>
         <Layout>{children}</Layout>
       </body>

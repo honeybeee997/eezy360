@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --color-primary: 201, 243, 29;
@@ -40,4 +44,30 @@
   color: black;
   -webkit-text-stroke-color: #000;
   background: rgb(var(--color-primary));
+}
+
+body {
+  --sb-track-color: #444444;
+  --sb-thumb-color: #c9f31d;
+  --sb-size: 4px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 14px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }

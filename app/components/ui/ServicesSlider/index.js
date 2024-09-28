@@ -15,15 +15,17 @@ const SERIVCES = [
 
 const ServicesSlider = () => {
   return (
-    <Slider
-      slides={SERIVCES.map((item, i) => {
-        return (
-          <Slide key={i} className="text-nowrap">
-            {item}
-          </Slide>
-        );
-      })}
-    />
+    <div className="bg-primary">
+      <Slider
+        slides={SERIVCES.map((item, i) => {
+          return (
+            <Slide key={i} className="text-nowrap">
+              {item}
+            </Slide>
+          );
+        })}
+      />
+    </div>
   );
 };
 
